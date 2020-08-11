@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  background: #9C27B0;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+
+}
+.body{
+
+}
+.body ul{
+  margin: 0;
+    padding: 10px;
+}
+.body ul li{
+background: #ddd;
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px
+}
+.body ul li span{
+  cursor: pointer;
+    float: right;
+    font-weight: 500;
+
+}
+.footer{
+  position: fixed;
+    padding: 15px;
+    bottom: 0;
+    background: #9C27B0;
+    width: 100%;
+
+}
+.footer input:focus{
+  outline: none;
+}
+.footer button:focus{
+  outline: none;
+}
+.footer input{
+width: 90%;
+    margin: auto;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 17px;
+    height: 35px;
+}
+.footer button{
+  cursor: pointer;
+  position: absolute;
+    top: -18px;
+    border-radius: 50%;
+    font-size: 26px;
+    right: 50px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background: blue;
+    color: white;
+    box-shadow: 2px 2px 3px;
+
+}
